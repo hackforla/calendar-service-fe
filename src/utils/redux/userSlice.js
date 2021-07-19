@@ -5,7 +5,7 @@ import { createSlice } from '@reduxjs/toolkit';
 Request URL: http://localhost:8080/meetingTypes/create <-- this is what you call when you click "Submit" for when the case worker is finished with created the meeting types/preferences
 Json payload (shape):
 {
-    "name":"Training" | "Inspection" | "The other meeting type" | "Move In" | "The last meeting type"
+    "name":"Training" | "Interview" | "Home Inspection" | "Home Selection" | "Home Visit"
     "location":"enter location here",
     "duration":"30" | "60"
     "color":"enter color here",
